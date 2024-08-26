@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bendy_mod:blocks/studio_floor1",
+    "up": "bendy_mod:blocks/studio_wall_blank",
+    "north": "bendy_mod:blocks/studio_wall_bottom1",
+    "east": "bendy_mod:blocks/studio_wall_bottom1",
+    "south": "bendy_mod:blocks/studio_wall_bottom1",
+    "west": "bendy_mod:blocks/studio_wall_bottom1",
+    "particle": "bendy_mod:blocks/studio_floor1"
+  },
+  "render_type": "solid"
+}

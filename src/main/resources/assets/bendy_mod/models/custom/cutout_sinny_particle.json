@@ -1,0 +1,7 @@
+
+{
+  "parent": "bendy_mod:displaysettings/cutouts.item",
+  "textures": {
+    "particle": "bendy_mod:blocks/cutout_sinny"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "bendy_mod:blocks/studio_wall_blank",
+    "top": "bendy_mod:blocks/studio_wall_blank",
+    "side": "bendy_mod:blocks/studio_wall_blank",
+    "overlay": "bendy_mod:blocks/studio_wall_broken",
+    "particle": "bendy_mod:blocks/studio_wall_blank"
+  },
+  "render_type": "cutout"
+}

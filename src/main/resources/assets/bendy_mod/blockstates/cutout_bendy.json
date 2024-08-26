@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bendy_mod:custom/cutout_bendy_particle"
+    },
+    "facing=east": {
+      "model": "bendy_mod:custom/cutout_bendy_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bendy_mod:custom/cutout_bendy_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bendy_mod:custom/cutout_bendy_particle",
+      "y": 270
+    }
+  }
+}

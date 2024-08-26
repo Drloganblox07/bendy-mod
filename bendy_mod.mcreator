@@ -1,0 +1,234 @@
+{
+  "mod_elements": [
+    {
+      "name": "StudioFloor",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bendy_mod/models/item/studio_floor.json",
+          "src/main/resources/assets/bendy_mod/blockstates/studio_floor.json",
+          "src/main/resources/assets/bendy_mod/models/block/studio_floor.json",
+          "src/main/java/net/mcreator/bendymod/block/StudioFloorBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "CutoutBendy",
+      "type": "animatedblock",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutout_bendy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bendymod/block/model/CutoutBendyDisplayModel.java",
+          "src/main/java/net/mcreator/bendymod/block/renderer/CutoutBendyTileRenderer.java",
+          "src/main/resources/assets/bendy_mod/blockstates/cutout_bendy.json",
+          "src/main/java/net/mcreator/bendymod/block/model/CutoutBendyBlockModel.java",
+          "src/main/java/net/mcreator/bendymod/block/display/CutoutBendyDisplayItem.java",
+          "src/main/java/net/mcreator/bendymod/block/entity/CutoutBendyTileEntity.java",
+          "src/main/java/net/mcreator/bendymod/block/CutoutBendyBlock.java",
+          "src/main/java/net/mcreator/bendymod/block/renderer/CutoutBendyDisplayItemRenderer.java",
+          "src/main/resources/assets/bendy_mod/models/item/cutout_bendy.json",
+          "src/main/resources/assets/bendy_mod/models/custom/cutout_bendy_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Cutouts"
+    },
+    {
+      "name": "CutoutSinny",
+      "type": "animatedblock",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutout_sinny",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bendymod/block/renderer/CutoutSinnyTileRenderer.java",
+          "src/main/java/net/mcreator/bendymod/block/renderer/CutoutSinnyDisplayItemRenderer.java",
+          "src/main/resources/assets/bendy_mod/blockstates/cutout_sinny.json",
+          "src/main/resources/assets/bendy_mod/models/item/cutout_sinny.json",
+          "src/main/java/net/mcreator/bendymod/block/CutoutSinnyBlock.java",
+          "src/main/resources/assets/bendy_mod/models/custom/cutout_sinny_particle.json",
+          "src/main/java/net/mcreator/bendymod/block/entity/CutoutSinnyTileEntity.java",
+          "src/main/java/net/mcreator/bendymod/block/model/CutoutSinnyBlockModel.java",
+          "src/main/java/net/mcreator/bendymod/block/display/CutoutSinnyDisplayItem.java",
+          "src/main/java/net/mcreator/bendymod/block/model/CutoutSinnyDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Cutouts"
+    },
+    {
+      "name": "BendyBlocks",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bendy_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BendyProps",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bendy_props",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StudioWallBlank",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_wall_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bendymod/block/StudioWallBlankBlock.java",
+          "src/main/resources/assets/bendy_mod/models/block/studio_wall_blank.json",
+          "src/main/resources/assets/bendy_mod/models/item/studio_wall_blank.json",
+          "src/main/resources/assets/bendy_mod/blockstates/studio_wall_blank.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "StudioWallBottomPlanks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_wall_bottom_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bendy_mod/blockstates/studio_wall_bottom_planks.json",
+          "src/main/resources/assets/bendy_mod/models/item/studio_wall_bottom_planks.json",
+          "src/main/resources/assets/bendy_mod/models/block/studio_wall_bottom_planks.json",
+          "src/main/java/net/mcreator/bendymod/block/StudioWallBottomPlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "StudioWallBroken",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_wall_broken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bendy_mod/models/block/studio_wall_broken.json",
+          "src/main/resources/assets/bendy_mod/models/item/studio_wall_broken.json",
+          "src/main/resources/assets/bendy_mod/blockstates/studio_wall_broken.json",
+          "src/main/java/net/mcreator/bendymod/block/StudioWallBrokenBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "StudioCeiling",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_ceiling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bendy_mod/blockstates/studio_ceiling.json",
+          "src/main/resources/assets/bendy_mod/models/block/studio_ceiling.json",
+          "src/main/resources/assets/bendy_mod/models/item/studio_ceiling.json",
+          "src/main/java/net/mcreator/bendymod/block/StudioCeilingBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "StudioWallBottomBroken",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio_wall_bottom_broken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bendy_mod/models/block/studio_wall_bottom_broken.json",
+          "src/main/resources/assets/bendy_mod/blockstates/studio_wall_bottom_broken.json",
+          "src/main/resources/assets/bendy_mod/models/item/studio_wall_bottom_broken.json",
+          "src/main/java/net/mcreator/bendymod/block/StudioWallBottomBrokenBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.bendy__mod.cutout_bendy": "Cutout Bendy",
+      "itemGroup.tabbendy_blocks": "Bendy Blocks",
+      "itemGroup.tabbendy_props": "Bendy Props",
+      "block.bendy_mod.studio_wall_blank": "Studio Wall (Blank)",
+      "block.bendy_mod.cutout_bendy": "Cutout Bendy",
+      "block.bendy__mod.cutout_sinny": "Cutout Sinny",
+      "block.bendy_mod.studio_wall_broken": "Studio Wall (Broken)",
+      "block.bendy_mod.studio_ceiling": "Studio Ceiling",
+      "block.bendy_mod.cutout_sinny": "Cutout Sinny",
+      "block.bendy_mod.studio_wall_bottom_broken": "Studio Wall (Broken Plank Bottom)",
+      "block.bendy__mod.studio_floor": "Studio Floor",
+      "block.bendy_mod.studio_floor": "Studio Floor",
+      "block.bendy_mod.studio_wall_bottom_planks": "Studio Wall (Plank Bottom)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Cutouts",
+            "children": []
+          },
+          {
+            "name": "Building",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "bendy_mod",
+    "modName": "The Bendy And The Craft Machine Mod",
+    "version": "1.0.0",
+    "author": "DrLoganblox07, MarceloGToonz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.bendymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

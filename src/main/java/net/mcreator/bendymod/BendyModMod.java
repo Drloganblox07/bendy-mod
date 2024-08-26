@@ -13,6 +13,8 @@
  */
 package net.mcreator.bendymod;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -29,6 +31,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.bendymod.init.BendyModModTabs;
+import net.mcreator.bendymod.init.BendyModModItems;
+import net.mcreator.bendymod.init.BendyModModBlocks;
+import net.mcreator.bendymod.init.BendyModModBlockEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -38,16 +45,22 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-@Mod("bendy__mod")
+@Mod("bendy_mod")
 public class BendyModMod {
 	public static final Logger LOGGER = LogManager.getLogger(BendyModMod.class);
-	public static final String MODID = "bendy__mod";
+	public static final String MODID = "bendy_mod";
 
 	public BendyModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		BendyModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		BendyModModBlocks.REGISTRY.register(bus);
+		BendyModModItems.REGISTRY.register(bus);
+
+		BendyModModBlockEntities.REGISTRY.register(bus);
+
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

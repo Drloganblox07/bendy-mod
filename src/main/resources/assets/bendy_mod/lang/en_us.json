@@ -1,0 +1,15 @@
+{
+  "block.bendy__mod.cutout_bendy": "Cutout Bendy",
+  "itemGroup.tabbendy_blocks": "Bendy Blocks",
+  "itemGroup.tabbendy_props": "Bendy Props",
+  "block.bendy_mod.studio_wall_blank": "Studio Wall (Blank)",
+  "block.bendy_mod.cutout_bendy": "Cutout Bendy",
+  "block.bendy__mod.cutout_sinny": "Cutout Sinny",
+  "block.bendy_mod.studio_wall_broken": "Studio Wall (Broken)",
+  "block.bendy_mod.studio_ceiling": "Studio Ceiling",
+  "block.bendy_mod.cutout_sinny": "Cutout Sinny",
+  "block.bendy_mod.studio_wall_bottom_broken": "Studio Wall (Broken Plank Bottom)",
+  "block.bendy__mod.studio_floor": "Studio Floor",
+  "block.bendy_mod.studio_floor": "Studio Floor",
+  "block.bendy_mod.studio_wall_bottom_planks": "Studio Wall (Plank Bottom)"
+}
