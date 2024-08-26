@@ -3,14 +3,14 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="bendy_mod"
+modId="bendy__mod"
 version="1.0.0"
-displayName="The Bendy And The Craft Machine Mod"
+displayName="Bendy  mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="DrLoganblox07, MarceloGToonz, MCreator"
+authors="Drloganblox07, MCreator"
 
-[[dependencies.bendy_mod]]
+[[dependencies.bendy__mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
@@ -19,10 +19,4 @@ authors="DrLoganblox07, MarceloGToonz, MCreator"
 
 
 
-[[dependencies.bendy_mod]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
